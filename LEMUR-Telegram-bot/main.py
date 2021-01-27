@@ -27,7 +27,7 @@ def random(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("L'Adrià encara no m'ha programat per mantenir converses i només puc rebre instruccions, utilitza /ajuda per veure tot el que puc fer ;)")
 
 def main():
-    updater = Updater("1574455621:AAGUqJcYlmGpBTgPybBgFwwWLLEHGYzDfLU", use_context=True)
+    updater = Updater("YOUT API KEY", use_context=True)
 
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("apren", aprenentatge.apren))
