@@ -1,0 +1,2 @@
+conceptes_list = []
+
